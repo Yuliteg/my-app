@@ -14,11 +14,11 @@ export const Wrapper = styled.div`
       font-size: 40px;
       font-weight: 600;
       font-family: Verdana;
-      color: #228B22; 
+      color: #006400; 
     }
   }
 
-  input[type="text" i] {
+  input[type="password" i] {
   box-sizing: border-box;
   width: 100%;
   padding: 10px 18px;
@@ -42,15 +42,26 @@ export const Wrapper = styled.div`
   font-family: Verdana;
   }
 
-  .line-wrapper {
+.line-wrapper {
     margin-top: 1rem;
     display: flex;
     justify-content: space-around;
 }
+
 .line {
     width: 100px;
     height: 6px;
     background-color: #555868;
     border-radius: 5px;
+}
+
+.red {
+  background-color: #C70000;
+}
+.green {
+  background-color: green;
+}
+.yellow {
+  background-color: yellow;
 }
 `
