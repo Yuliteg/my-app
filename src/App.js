@@ -1,24 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import { Wrapper } from './style';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Wrapper>
+      <div className="title">
+        <p>PassGuard</p>
+      </div>
+      <div className="input">
+        <label>Please enter your password for verification:</label>
+        <input type="text" />
+        <div className="line-wrapper">
+            <div className="line"></div>
+            <div className="line"></div>
+            <div className="line"></div>
+        </div>
+      </div>
+    </Wrapper>
   );
 }
 
